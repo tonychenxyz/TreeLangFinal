@@ -6,6 +6,11 @@ ocamlbuild -r -pkg llvm treelang.native
 lli example.out
 ```
 
+# Test Instruction
+```
+ocamlbuild -use-ocamlfind -pkg ounit2 test.native
+./test.native 
+```
 
 
 # Language Description
