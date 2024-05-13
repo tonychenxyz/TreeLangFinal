@@ -136,7 +136,6 @@ let sample_ir = "; ModuleID = 'TreeStats'\n" ^
 
 let irgen_tests = [
   irgen_test "test_basic_ir_generation" sample_sast sample_ir;
-  (* Add more LLVM IR generation tests as needed *)
 ]
 *)
 
